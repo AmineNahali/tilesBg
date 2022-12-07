@@ -1,0 +1,61 @@
+@import url('http://fonts.cdnfonts.com/css/deftone-stylus');
+*{
+	font-family: 'Deftone Stylus', sans-serif;
+}
+body{
+	/*background-image: url("tiles/6.bmp");*/
+	background-size: 32px;
+}
+#navbar{
+	position: fixed;
+	z-index: 10;
+	left: 10%;
+	top: 0;
+	width:80% !important;
+	margin-left: -11px;
+	display:block !important;
+	float:none !important;
+	height: 60px;
+	background-color: rgba(246, 55, 236, 0.85);
+	border: 6px rgb(51, 48, 228) solid;
+	border-radius: 50px;
+}
+#hallwrapper{
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+#hall{
+	width: 70%;
+	height: 6000px;
+	margin: 100px auto;
+	overflow: auto;
+	background-color: yellow;
+	border: 6px red dashed;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background-color: #37E2D5; 
+	border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #590696; 
+	border-radius: 10px;
+	border: 4px #FBCB0A solid;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #CA82FF; 
+}
